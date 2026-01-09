@@ -319,7 +319,7 @@ nav .menu a{
 }
 
 footer{
-    /* margin-top: 120px; */
+
     padding-top: 120px;
     background-color: #001931;
 
@@ -332,7 +332,7 @@ footer .footer-container{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 
@@ -356,6 +356,52 @@ footer .footer-container{
 
 .footer-container .social img{
     width: 20px;
+}
+
+
+footer .footer-copyright{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.footer-copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #627382;
+
+}
+
+.footer-copyright h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
+
+.btn:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: #000000;
+
+}
+.btn-one:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+
+}
+.btn-two:hover{
+    background: #469165;
+    /* border: 1px solid black; */
+    color: white;
+    border: none;
+
 }
 
 
