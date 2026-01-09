@@ -59,8 +59,11 @@ nav .menu a{
 }
 
 #banner{
-    background: url(./img/hero-bg.png);
+
+    background:url(./img/hero-bg.png) center/cover no-repeat;
 }
+
+
 
 #banner .banner-container{
     width: 85%;
@@ -106,6 +109,18 @@ nav .menu a{
     line-height: 24px;
     margin-bottom: 32px;
 }
+
+.btn-one{
+    background-color:#469165;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 16px;
+
+}
+
+
 .banner-info .btn-two{
     font-size: 16px;
     font-weight: 600px;
@@ -118,15 +133,86 @@ nav .menu a{
 
 }
 
-.btn-one{
-    background-color:#469165;
-    border: none;
-    color: white;
-    font-weight: 600;
-    border-radius: 4px;
-    padding: 16px;
+#note-section .note-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
 
 }
+
+
+.note-container .note-heading{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.note-container .note-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 80px;
+    color: #001931;
+    margin-bottom: 16px;
+    
+}
+.note-container .note-heading p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+    
+}
+.note-container .note-box{
+    display: flex;
+    gap: 24px;
+}
+
+.note-box .note-card{
+    padding: 70px 24px 30px;
+    max-width: 322px;
+    text-align: center;
+    box-shadow: 0 0 8px 0 #00000020;
+    border-radius: 8px;
+}
+
+.note-card img{
+    max-width: 60px;
+    background-color: #F95555;
+    border-radius: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    
+}
+
+.note-card h3{
+    max-width: 274px;
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 16px;
+
+    
+}
+
+.note-card p{
+    max-width: 274px;
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;    
+}
+
+.note-card .two{
+    max-width: 60px;
+    background-color: #F95555;
+    border-radius: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    
+}
+
+
+
+
 
 
 
