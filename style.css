@@ -255,6 +255,7 @@ nav .menu a{
 
 .sollution-content .checkcircle {
     display: flex;
+    align-items: center;
     
 }
 .sollution-content .checkcircle li{
@@ -265,6 +266,8 @@ nav .menu a{
 .checkcircle img{
     width: 20px;
     margin-bottom: 16px;
+    margin-right: 6px;
+    
 
 }
 .checkcircle ul{
@@ -274,7 +277,86 @@ nav .menu a{
     margin-bottom: 16px;
 }
 
+#clearly{
 
+    padding-bottom: 120px;
+    
+}
+
+#clearly .clearly-container{
+    width: 85%;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    
+
+}
+
+#clearly .clearly-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+
+#clearly .clearly-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+    
+}
+#clearly .clearly-container .p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+
+}
+
+footer{
+    /* margin-top: 120px; */
+    padding-top: 120px;
+    background-color: #001931;
+
+}
+
+footer .footer-container{
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+
+.footer-container .footer-logo img{
+    width: 139px;
+    
+}
+.footer-container .social{
+    width: 220px;
+    padding-right: 107px;
+
+}
+
+.footer-container .social h4{
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.footer-container .social img{
+    width: 20px;
+}
 
 
 
