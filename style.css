@@ -210,6 +210,70 @@ nav .menu a{
     
 }
 
+#sollution{
+    width: 81%;
+    max-width: 1360px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    
+}
+
+#sollution .sollution-img{
+    width: 600px;
+}
+
+#sollution .sollution-content{
+    width: 700px;
+    margin: 102px 0px 102px 60px;
+}
+
+#sollution .sollution-content h4{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight:400;
+    color: #469165;
+    margin-bottom: 16px;
+
+}
+
+#sollution .sollution-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#sollution .sollution-content p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.sollution-content .checkcircle {
+    display: flex;
+    
+}
+.sollution-content .checkcircle li{
+    display: flex;
+    list-style-type: none;
+}
+
+.checkcircle img{
+    width: 20px;
+    margin-bottom: 16px;
+
+}
+.checkcircle ul{
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
 
 
 
